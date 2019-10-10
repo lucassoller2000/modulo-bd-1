@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProdutoMaterial" directorySegmentName="seg_0" id="718F75AF-5D6F-13E8-8B26-1CE4920B24DC">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:05:13 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D7D2EDC5-C1CD-943B-BB3C-F5ABA1181163</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB58277B-8779-42FD-F19E-48A7EC1579F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

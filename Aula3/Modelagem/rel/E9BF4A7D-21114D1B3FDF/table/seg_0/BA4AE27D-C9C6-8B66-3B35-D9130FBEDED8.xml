@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA4AE27D-C9C6-8B66-3B35-D9130FBEDED8" name="Cidade">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>513F6A7F-F078-1A13-36A1-D1384B325608</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDCidade" id="B9914D2C-D0A4-E33B-AD88-B52B36312CC1">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>599A8816-E199-69CC-5C8D-7C83178A6825</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="51291928-B284-39A8-ABD3-936E57E7B359">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>D503134B-23A0-4DF9-4018-58D71C26E4FB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="BC462B33-1A1A-0B6E-9613-BE0F57263F1B">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>36C193A8-3F47-4F1B-5FD2-94F0B575E430</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0CB00D2-D775-3A2A-CD73-B3CC5CA289A6" name="Cidade_PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>EA29E25B-624D-1104-F2FB-146999BE627A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9914D2C-D0A4-E33B-AD88-B52B36312CC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

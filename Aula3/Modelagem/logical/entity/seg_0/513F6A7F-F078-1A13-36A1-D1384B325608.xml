@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="513F6A7F-F078-1A13-36A1-D1384B325608" name="Cidade">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 17:42:29 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCidade" id="599A8816-E199-69CC-5C8D-7C83178A6825">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 17:42:37 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="D503134B-23A0-4DF9-4018-58D71C26E4FB">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 17:42:49 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="36C193A8-3F47-4F1B-5FD2-94F0B575E430">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 17:43:17 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA29E25B-624D-1104-F2FB-146999BE627A" name="Cidade PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 17:42:46 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E9BF4A7D-290E-BB23-4B7E-21114D1B3FDF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>599A8816-E199-69CC-5C8D-7C83178A6825</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

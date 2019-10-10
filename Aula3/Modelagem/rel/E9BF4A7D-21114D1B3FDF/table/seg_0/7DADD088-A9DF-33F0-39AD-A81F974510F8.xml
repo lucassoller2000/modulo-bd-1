@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DADD088-A9DF-33F0-39AD-A81F974510F8" name="Pedido">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>1BEF3B4A-3D8E-AEE1-D006-7DDD69E250C6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPedido" id="813E18BA-2F9E-4338-B586-4A5553DB9FD1">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>B99E78FA-8BFB-EDEE-79E0-862A3CD22248</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataPedido" id="2EF05ED2-4C7E-36A3-DF07-025833347628">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>4089EF64-81E9-F561-E995-1A71D771B225</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Situacao" id="5A1CB948-EC78-0404-AE0B-A229FB980B07">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<commentInRDBMS>N: Novo, P: Produção, E: Entregue, C: Cancelado</commentInRDBMS>
+<generatorID>3A1AC2F9-0A5C-DDCA-8B75-657D760FE132</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorTotal" id="AEB59843-A2CA-843E-B908-F3DEF8C6CAA5">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>66234DD2-032F-8C53-D64E-DC8C4E004314</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_IDCliente" id="5F5AB473-0CA6-6285-AB1F-35B01A5D57A7">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:07:53 UTC</createdTime>
+<generatorID>7F65B1F9-355F-376B-68D7-70380BFA562C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="777D6393-572A-116F-40A4-895E372EC5A7" referredColumn="BEE52E07-B6CB-3D23-B02B-094D742164FF"/>
+</associations>
+</Column>
+<Column name="ValorUnitario" id="519F9C32-C591-6BEF-8239-9FE1594E2F7A">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:23:01 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEB7D200-3979-ED22-573D-6E2E8FA4BAEB" name="Pedido_PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>D6F8A1B4-FE4A-D9AA-A5F1-904A718170B8</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="813E18BA-2F9E-4338-B586-4A5553DB9FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A25162C6-E839-D609-7C7E-A84F9C436804" name="Pedido_Cliente_FK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:07:53 UTC</createdTime>
+<generatorID>353C88D9-DD24-DC0B-40BD-93AD8AC814DF</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F5AB473-0CA6-6285-AB1F-35B01A5D57A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

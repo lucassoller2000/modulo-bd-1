@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE2DB37-E8FB-F83D-9E5B-A4CF30286A37" name="Produto">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>D7D2EDC5-C1CD-943B-BB3C-F5ABA1181163</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDProduto" id="A818BF91-C04D-B4DE-2D6F-4FCBCEDD900D">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>A9A1B353-A60A-AD53-CBE4-AA3E808E2632</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="E46456B2-2751-80E5-0C25-5A8F2A6F4173">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>18E2DDF4-AC0C-E88D-9089-33CCBA8C3374</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEF12299-3D51-5C28-1E27-3A38789169B6" name="Produto_PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>CC2AEF2B-4A0F-7442-18CB-F3813632CCF4</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A818BF91-C04D-B4DE-2D6F-4FCBCEDD900D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

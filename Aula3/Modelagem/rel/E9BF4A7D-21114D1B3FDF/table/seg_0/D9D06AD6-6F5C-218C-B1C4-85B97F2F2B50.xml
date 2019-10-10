@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9D06AD6-6F5C-218C-B1C4-85B97F2F2B50" name="ProdutoMaterial">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDProduto" id="D8ACFDD9-63F2-5041-1B98-BD5BCFCBF748">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CC4DBFA-7539-D228-4355-D138DC1DF7E6" referredColumn="A818BF91-C04D-B4DE-2D6F-4FCBCEDD900D"/>
+</associations>
+</Column>
+<Column name="IDMaterial" id="8DB95F31-5880-5973-1D92-969ECA3FA4C2">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0E5A2E9-148B-8EDC-B1AA-2A97B430EDD2" referredColumn="F58479F7-061A-82F9-CB35-C17829AF7EE8"/>
+</associations>
+</Column>
+<Column name="IDProdutoMaterial" id="3AA542DB-1684-72A4-9219-C47A82A7587E">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:24:29 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantidade" id="EE350878-AA67-B5A9-80AA-8D986F25B570">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:25:08 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9600DF5E-52E7-7E9F-D93D-B6F90A5FDD8D" name="ProdutoMaterial_PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AA542DB-1684-72A4-9219-C47A82A7587E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52F88E10-875D-CC38-5AEC-1F0C486BF8E7" name="ProdutoMaterial_Produto_FK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>718F75AF-5D6F-13E8-8B26-1CE4920B24DC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8ACFDD9-63F2-5041-1B98-BD5BCFCBF748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26DEA300-28FA-9B7B-F3EA-A973B31EC970" name="ProdutoMaterial_Material_FK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>718F75AF-5D6F-13E8-8B26-1CE4920B24DC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB95F31-5880-5973-1D92-969ECA3FA4C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

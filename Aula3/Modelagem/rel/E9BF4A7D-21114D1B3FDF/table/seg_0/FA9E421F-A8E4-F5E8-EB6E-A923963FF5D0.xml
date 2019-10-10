@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA9E421F-A8E4-F5E8-EB6E-A923963FF5D0" name="PedidoItem">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<ordsAlias>produtopedido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDProduto" id="5CF3A609-27D4-AE41-D0BB-2F1D8C544701">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="385E1C38-0662-79DC-4752-CCD547FE2A31" referredColumn="A818BF91-C04D-B4DE-2D6F-4FCBCEDD900D"/>
+</associations>
+</Column>
+<Column name="IDPedido" id="9FB08425-59E0-D276-512F-EFFAE3BC16F0">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06DF1ED-A3C2-A413-F58E-051CEBB1ADDE" referredColumn="813E18BA-2F9E-4338-B586-4A5553DB9FD1"/>
+</associations>
+</Column>
+<Column name="Quantidade" id="09CA7303-DAB6-8914-C691-8A984A5563C8">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:18:51 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDProdutoItem" id="A820501A-6809-1687-FBAE-2E39583CF688">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:19:42 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorUnitario" id="1C0DC0D5-97D7-49E7-64FD-6C22AADFCC0C">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:23:47 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ED6A7B5-624E-D89F-62CC-FEF7B12797A4" name="ProdutoPedido_PK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A820501A-6809-1687-FBAE-2E39583CF688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0DB1CFD-FAEE-2D71-8815-329404F5B29C" name="ProdutoPedido_Produto_FK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>D4523807-B2F4-1F92-980F-CE0EF0A61B2C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CF3A609-27D4-AE41-D0BB-2F1D8C544701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D5BCC63-C059-E2CF-58FA-5A5504C8E993" name="ProdutoPedido_Pedido_FK">
+<createdBy>silva.lucas</createdBy>
+<createdTime>2018-04-25 18:06:14 UTC</createdTime>
+<generatorID>D4523807-B2F4-1F92-980F-CE0EF0A61B2C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB08425-59E0-D276-512F-EFFAE3BC16F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
